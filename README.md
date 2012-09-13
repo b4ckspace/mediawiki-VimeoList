@@ -1,4 +1,4 @@
-# shoogle list
+# mediawiki-vimeo
 
 ## what it does
 
@@ -10,12 +10,12 @@ An example of the mediawiki-vimeo extension can be found here, at the bottom of 
 
 To use the Vimeo extension in your mediawiki, all you have to do is:
 
-<vimeo width="200" height="110">
+&lt;vimeo width="200" height="110"&gt;
 123123123
 12312345
 3454853
 4589399
-</vimeo>
+&lt;/vimeo&gt;
 
 Width and height attribute is optional. Each Video-ID is seperated by a newline
 
