@@ -1,0 +1,29 @@
+.vimeo-item {
+    float: left;
+    margin-bottom: 20px;
+    padding: 0px 14px 0 14px;
+}
+
+.vimeo-item a {
+    background-position: center;
+    background-color: #000;
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.vimeo-item a span {
+    display: inline-block;
+    background-image: url(play_button.png);
+    width: 66px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.vimeo-list {
+    margin-top: 20px !important;
+    padding: 10px 0;
+    margin-left: 12px !important;
+    list-style: none;
+    list-style-position: inside;
+}
