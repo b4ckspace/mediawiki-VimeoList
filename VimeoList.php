@@ -64,6 +64,11 @@ class VimeoList {
 
             $id = (int) $line;
 
+            // if id is empty or null
+            if( !$id ) {
+                continue;    
+            }
+
             $video = $this->retrieve_vimeo_data( $id );
             if( !$video ) {
                 $video = $this->get_video_error();
