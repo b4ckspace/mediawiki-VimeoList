@@ -79,7 +79,7 @@ class VimeoList {
 
             $output .= '<li class="vimeo-item">';
             $output .= sprintf('<a href="//vimeo.com/%d" target="_blank" title="%s" style="background-image:url(%s); width:%dpx; height:%dpx"><span></span></a>', $id, $title, $thumbnail, $width, $height );
-            $otuput .= '</li>';
+            $output .= '</li>';
         }
 
 
