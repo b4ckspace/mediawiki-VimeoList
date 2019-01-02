@@ -86,7 +86,10 @@ class VimeoList {
         $output .= '</ul>';
 
         global $wgOut, $wgScriptPath;
-        $wgOut->addExtensionStyle("{$wgScriptPath}/extensions/VimeoList/VimeoList.css");
+        $parser->mOutput->addHeadItem(
+            '<link rel="stylesheet" href="'
+            . $wgScriptPath . '/extensions/VimeoList/VimeoList.css">'
+        );
 
         return $output;
 
