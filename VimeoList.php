@@ -110,7 +110,7 @@ class VimeoList {
         }
 
         // Retrieve json object from vimeo api
-        $url = sprintf("http://vimeo.com/api/v2/video/%d.json", $id );
+        $url = sprintf("https://vimeo.com/api/v2/video/%d.json", $id );
 
         $result = @file_get_contents( $url );
         if( !$result ) {
