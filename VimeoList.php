@@ -41,7 +41,7 @@ class VimeoList {
 
     public function hookVimeo($text, $argv, $parser) {
 
-        $parser->disableCache();
+        $parser->getOutput()->updateCacheExpiry(0);
 
         $width = 200;
         $height = 110;
